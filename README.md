@@ -70,7 +70,7 @@ This library is very active with a lot of contributors. New features and bug fix
 
 ## Prerequisite
 
-The library supports Java 8 and up. If you want to build from the source code, you need to install JDK 8 locally. To support multiple version of JDK, you can use [SDKMAN](https://www.networknt.com/tool/sdk/)
+The library supports Java 7 and up. If you want to build from the source code, you need to install JDK 8 locally. To support multiple version of JDK, you can use [SDKMAN](https://www.networknt.com/tool/sdk/)
 
 ## Dependency
 
