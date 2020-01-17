@@ -7,6 +7,8 @@
 [Javadocs](https://www.javadoc.io/doc/com.networknt/json-schema-validator) |
 [Contribution Guide](https://doc.networknt.com/contribute/) |
 
+This is a minor fork of networknt/json-schema-validator project with the intent of making the library Java 1.7 compatible.
+
 [![Build Status](https://travis-ci.org/networknt/json-schema-validator.svg?branch=master)](https://travis-ci.org/networknt/json-schema-validator) [![codecov.io](https://codecov.io/github/networknt/json-schema-validator/coverage.svg?branch=master)](https://codecov.io/github/networknt/json-schema-validator?branch=master)
 
 
