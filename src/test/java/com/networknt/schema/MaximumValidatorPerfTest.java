@@ -14,8 +14,6 @@ import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
-
 import static org.junit.Assert.assertTrue;
 
 @Ignore
@@ -47,7 +45,11 @@ public class MaximumValidatorPerfTest {
         List<Method> testMethods = new ArrayList<Method>();
         if(methodNames.length > 0) {
             for(String name : methodNames) {
-                testMethods.addAll(Arrays.stream(methods).filter(m -> m.getName().equals(name)).collect(Collectors.toList()));
+                for (Method method: methods) {
+                    if (method.getName().equals(name)) {
+                        testMethods.add(method);
+                    }
+                }
             }
             return testMethods;
         }
